@@ -1,0 +1,13 @@
+# Per-user files in Visual Studio
+*.suo
+*.user
+
+# Roslyn IntelliSense Cache
+*.sln.ide
+
+# NuGet Packages Directory
+/packages/
+
+# Build output
+bin/
+obj/
