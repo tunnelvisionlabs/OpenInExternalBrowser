@@ -3,7 +3,7 @@
   <Identifier Id="Tvl.VisualStudio.OpenInExternalBrowser.AB302857-F9A9-4345-B930-FC99D0F80601">
     <Name>Open in External Browser</Name>
     <Author>Sam Harwell</Author>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Description xml:space="preserve">Alters the behavior of Ctrl+Click in the editor to open links in the default external browser</Description>
     <Locale>1033</Locale>
     <License>LICENSE</License>
