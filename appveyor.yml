@@ -1,0 +1,12 @@
+version: 1.0.{build}
+configuration: Release
+platform: Any CPU
+init:
+- git config --global core.autocrlf true
+install:
+- nuget restore
+test: off
+artifacts:
+- path: '**\*.vsix'
+cache:
+  - packages -> **\packages.config
