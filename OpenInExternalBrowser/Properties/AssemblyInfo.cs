@@ -1,4 +1,7 @@
-﻿using System.Reflection;
+﻿// Copyright (c) Tunnel Vision Laboratories, LLC. All Rights Reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for full license information.
+
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
@@ -9,7 +12,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Tunnel Vision Laboratories, LLC")]
 [assembly: AssemblyProduct("Tvl.VisualStudio.OpenInExternalBrowser")]
-[assembly: AssemblyCopyright("Copyright © Sam Harwell 2014")]
+[assembly: AssemblyCopyright("Copyright © Sam Harwell 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
