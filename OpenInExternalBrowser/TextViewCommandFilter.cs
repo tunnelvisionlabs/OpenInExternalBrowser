@@ -1,4 +1,5 @@
-﻿// Copyright (c) Tunnel Vision Laboratories, LLC. All Rights Reserved. Licensed under the Microsoft Reciprocal License (MS-RL). See LICENSE in the project root for license information.
+﻿// Copyright (c) Tunnel Vision Laboratories, LLC. All Rights Reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 namespace Tvl.VisualStudio.OpenInExternalBrowser
 {
