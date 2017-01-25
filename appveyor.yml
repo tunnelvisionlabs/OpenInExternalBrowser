@@ -1,4 +1,5 @@
 version: 1.0.{build}
+image: Visual Studio 2015
 configuration: Release
 platform: Any CPU
 init:
@@ -11,4 +12,4 @@ test: off
 artifacts:
 - path: '**\*.vsix'
 cache:
-  - packages -> **\packages.config
+- packages -> **\packages.config
