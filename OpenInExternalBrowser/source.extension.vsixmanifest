@@ -1,30 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="Tvl.VisualStudio.OpenInExternalBrowser.AB302857-F9A9-4345-B930-FC99D0F80601">
-    <Name>Open in External Browser</Name>
-    <Author>Sam Harwell</Author>
-    <Version>1.1.1</Version>
-    <Description xml:space="preserve">Alters the behavior of Ctrl+Click in the editor to open links in the default external browser</Description>
-    <Locale>1033</Locale>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="Tvl.VisualStudio.OpenInExternalBrowser.AB302857-F9A9-4345-B930-FC99D0F80601" Version="1.1.1" Language="en-US" Publisher="Sam Harwell" />
+    <DisplayName>Open in External Browser</DisplayName>
+    <Description>Alters the behavior of Ctrl+Click in the editor to open links in the default external browser</Description>
+    <MoreInfo>https://github.com/tunnelvisionlabs/OpenInExternalBrowser</MoreInfo>
     <License>LICENSE</License>
-    <!--<Icon>VSIXProject_small.png</Icon>
-    <PreviewImage>VSIXProject_large.png</PreviewImage>-->
-    <SupportedProducts>
-      <VisualStudio Version="11.0">
-        <Edition>Pro</Edition>
-      </VisualStudio>
-      <VisualStudio Version="12.0">
-        <Edition>Pro</Edition>
-      </VisualStudio>
-      <VisualStudio Version="14.0">
-        <Edition>Pro</Edition>
-      </VisualStudio>
-    </SupportedProducts>
-    <SupportedFrameworkRuntimeEdition MinVersion="4.0" />
-  </Identifier>
-  <References />
-
-  <Content>
-    <MefComponent>|%CurrentProject%|</MefComponent>
-  </Content>
-</Vsix>
+    <!-- Don't include the GettingStartedGuide because it makes a web browser pop up after installation -->
+    <!--<GettingStartedGuide>https://marketplace.visualstudio.com/items?itemName=SamHarwell.OpeninExternalBrowser</GettingStartedGuide>-->
+    <ReleaseNotes>https://github.com/tunnelvisionlabs/OpenInExternalBrowser/releases/tag/1.1.1</ReleaseNotes>
+    <!--<Icon></Icon>-->
+    <!--<PreviewImage></PreviewImage>-->
+    <Tags>browser, editor, hyperlink, url</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+  </Assets>
+</PackageManifest>
