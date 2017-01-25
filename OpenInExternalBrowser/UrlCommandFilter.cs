@@ -13,6 +13,7 @@ namespace Tvl.VisualStudio.OpenInExternalBrowser
     using Microsoft.VisualStudio.Text.Editor;
     using Microsoft.VisualStudio.Text.Tagging;
     using Microsoft.VisualStudio.TextManager.Interop;
+    using Tvl.VisualStudio.Text;
     using FileNotFoundException = System.IO.FileNotFoundException;
     using OLECMDEXECOPT = Microsoft.VisualStudio.OLE.Interop.OLECMDEXECOPT;
     using Process = System.Diagnostics.Process;

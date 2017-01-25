@@ -3,6 +3,7 @@
 
 using System.Reflection;
 using System.Runtime.InteropServices;
+using Microsoft.VisualStudio.Shell;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
@@ -37,3 +38,12 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.1.0.0")]
 [assembly: AssemblyFileVersion("1.1.1.0")]
 [assembly: AssemblyInformationalVersion("1.1.1.0-dev")]
+
+[assembly: ProvideCodeBase(
+    AssemblyName = "Tvl.VisualStudio.Shell.Utility.10",
+    Version = "1.0.0.0",
+    CodeBase = "$PackageFolder$\\Tvl.VisualStudio.Shell.Utility.10.dll")]
+[assembly: ProvideCodeBase(
+    AssemblyName = "Tvl.VisualStudio.Text.Utility.10",
+    Version = "1.0.0.0",
+    CodeBase = "$PackageFolder$\\Tvl.VisualStudio.Text.Utility.10.dll")]
