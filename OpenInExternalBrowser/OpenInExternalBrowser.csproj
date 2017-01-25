@@ -178,7 +178,7 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="key.snk" />
-    <None Include="packages.OpenInExternalBrowser.config" />
+    <None Include="packages.config" />
     <None Include="source.extension.vsixmanifest" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
