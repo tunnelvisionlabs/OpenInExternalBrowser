@@ -10,6 +10,7 @@ namespace Tvl.VisualStudio.OpenInExternalBrowser
     using Microsoft.VisualStudio.Text.Tagging;
     using Microsoft.VisualStudio.TextManager.Interop;
     using Microsoft.VisualStudio.Utilities;
+    using Tvl.VisualStudio.Text;
 
     [Export(typeof(IVsTextViewCreationListener))]
     [ContentType("text")]
