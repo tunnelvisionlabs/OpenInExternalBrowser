@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Tvl.VisualStudio.OpenInExternalBrowser.AB302857-F9A9-4345-B930-FC99D0F80601" Version="1.1.1" Language="en-US" Publisher="Sam Harwell" />
+    <Identity Id="Tvl.VisualStudio.OpenInExternalBrowser.AB302857-F9A9-4345-B930-FC99D0F80601" Version="2.0.0" Language="en-US" Publisher="Sam Harwell" />
     <DisplayName>Open in External Browser</DisplayName>
     <Description>Alters the behavior of Ctrl+Click in the editor to open links in the default external browser</Description>
     <MoreInfo>https://github.com/tunnelvisionlabs/OpenInExternalBrowser</MoreInfo>
     <License>LICENSE</License>
     <!-- Don't include the GettingStartedGuide because it makes a web browser pop up after installation -->
     <!--<GettingStartedGuide>https://marketplace.visualstudio.com/items?itemName=SamHarwell.OpeninExternalBrowser</GettingStartedGuide>-->
-    <ReleaseNotes>https://github.com/tunnelvisionlabs/OpenInExternalBrowser/releases/tag/1.1.1</ReleaseNotes>
+    <ReleaseNotes>https://github.com/tunnelvisionlabs/OpenInExternalBrowser/releases/tag/2.0.0</ReleaseNotes>
     <!--<Icon></Icon>-->
     <!--<PreviewImage></PreviewImage>-->
     <Tags>browser, editor, hyperlink, url</Tags>
